@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Мебель для дома</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="image-container">
+                <img src="divan.png" alt="Couch">
+            </div>
+            <div class="title-container">
+                <div class="title">МЕБЕЛЬ <span class="title-highlight">ДЛЯ ДОМА</span></div>
+            </div>
+        </div>
+        <div class="subtitle">МЕБЕЛЬ ПОД ВАШ ФОРМАТ</div>
+        <div class="form-container">
+            <form>
+                <div class="form-group">
+                    <label for="price-from">Цена:</label>
+                    <div class="input-container">
+                        <input type="number" id="price-from" placeholder="от">
+                        <input type="number" id="price-to" placeholder="до">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="search">Что ищем?</label>
+                    <input type="text" id="search" placeholder="Введите текст">
+                </div>
+                <div class="form-group">
+                    <label for="company">Фирма:</label>
+                    <select id="company">
+                        <option value="">Выберите фирму</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="city">Город:</label>
+                    <select id="city">
+                        <option value="">Выберите город</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Найти</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
